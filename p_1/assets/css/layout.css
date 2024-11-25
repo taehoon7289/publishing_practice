@@ -1,55 +1,33 @@
-@import "layout.css";
+@import "common.css";
 
 /* 노트북 & 테블릿 가로 (해상도 1024px ~ )*/
 @media all and (min-width: 1024px) {
-    .greeting_logo {
-        width: 30%;
+    .header {
+        width: 100%;
         height: auto;
-    }
-
-    .greeting {
-        color: red;
-        font-size: 1.5rem;
     }
 }
 
 /* 테블릿 가로 (해상도 768px ~ 1023px)*/
 @media all and (min-width: 768px) and (max-width: 1023px) {
-
-    .greeting_logo {
-        width: 50%;
+    .header {
+        width: 100%;
         height: auto;
-    }
-
-    .greeting {
-        font-size: 1.5rem;
     }
 }
 
 /* 모바일 가로 & 테블릿 세로 (해상도 480px ~ 767px)*/
 @media all and (min-width: 480px) and (max-width: 767px) {
-
-    .greeting_logo {
-        width: 75%;
+    .header {
+        width: 100%;
         height: auto;
-    }
-
-    .greeting {
-        color: red;
-        font-size: 1.5rem;
     }
 }
 
 /* 모바일 세로 (해상도 ~ 479px)*/
 @media all and (max-width: 479px) {
-
-    .greeting_logo {
+    .header {
         width: 100%;
         height: auto;
-    }
-
-    .greeting {
-        color: red;
-        font-size: 1.5rem;
     }
 }
